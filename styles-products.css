@@ -130,7 +130,7 @@ body {
 .product-category-item-image {
     width: clamp(50px, 100%, 100px);
     height: clamp(50px, 100%, 100px);
-    flex-basis:content;
+    flex-basis: content;
     align-self: center;
 }
 
