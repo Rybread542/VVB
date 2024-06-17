@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles-checkout.css">
+    <script src="https://kit.fontawesome.com/0c913fca30.js" crossorigin="anonymous"></script>
+</head>
+    <body>
+        <div class="component-top-bar">
+            <div></div>
+            <div class="logo-container">
+                <img src="images/top_bar_logo.jpg" class="logo-img" alt="logo">
+            </div>
+            <div class="menu-icon-container">
+                <i class="fa-solid fa-bars menu-icon"></i>
+            </div>
+        </div>
+        <div class="component-side-menu">
+            <div class="menu-items-container">
+                <a href="#" class="menu-item-link">
+                    <div class="menu-item-container">
+                        Home
+                    </div>
+                </a>
+                <a href="#" class="menu-item-link">
+                    <div class="menu-item-container">
+                        Shop
+                    </div>
+                </a>
+                <a href="#" class="menu-item-link">
+                    <div class="menu-item-container">
+                        Products
+                    </div>
+                </a>
+                <a href="#" class="menu-item-link">
+                    <div class="menu-item-container">
+                        About
+                    </div>
+                </a>
+                <a href="#" class="menu-item-link">
+                    <div class="menu-item-container">
+                        Contact
+                    </div>
+                </a>
+            </div>
+        </div>
+    <main>
+        <div class="checkout-main-content">
+            <div class="checkout-deliver-form-container">
+                <form action="" method="POST" class="checkout-deliver-form">
+                    <h2>Customer Information</h2>
+                    <fieldset id="customer-info">
+
+                        <div class="form-item">
+                            <label for="fname">
+                                <span>First Name</span>
+                                <strong><span aria-label="required">*</span></strong>
+                            </label>
+                            <input type="text" id='fname' name="customer-lname" required>
+                        </div>
+
+                        <div class="form-item">
+                            <label for="lname">
+                                <span>Last Name</span>
+                                <strong><span aria-label="required">*</span></strong>
+                            </label>
+                            <input type="text" id='lname' name="customer-fname" required>
+                        </div>
+
+                        <div class="form-item">
+                            <label for="email">
+                                <span>Email</span>
+                                <strong><span aria-label="required">*</span></strong>
+                            </label>
+                            <input type="text" id='email' name='customer-email' required>
+                        </div>
+
+                    </fieldset>
+                    
+                    <fieldset id="delivery-info">
+                        <div class="form-item">
+                            <label for="address">
+                                <span>Address</span>
+                                <strong><span aria-label="required">*</span></strong>
+                            </label>
+                            <input type="text" name="customer-address" id="address" required>
+                        </div>
+
+                        <div class="form-item" id="form-item-city">
+                            <label for="city">
+                                <span>City</span>
+                                <strong><span aria-label="required">*</span></strong>
+                            </label>
+                            <input type="text" id='city' name='customer-city' required>
+                        </div>
+
+                        <div class="form-item" id='form-item-zip'>
+                            <label for="zip">
+                                <span>ZIP</span>
+                                <strong><span aria-label="required">*</span></strong>
+                            </label>
+                            <input type="text" id='zip' name='customer-zip' required>
+                        </div>
+
+                    </fieldset>
+
+                    <fieldset id='payment-info'>
+                        
+
+
+                    </fieldset>
+                </form>
+            </div>
+            <div class="checkout-cart">
+                <div class="checkout-cart-title">
+                    <h2>Order Summary</h2>
+                </div>
+
+                <div class="checkout-cart-content">
+
+                </div>
+
+                <div class="checkout-cart-submit">
+                    <button class="checkout-cart-submit-button">
+                        Submit Order
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>

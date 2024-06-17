@@ -1,0 +1,123 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(
+                180deg, 
+                rgba(39, 39, 39, 0.479),
+                rgba(41, 41, 41, 0.555)
+                ), url(images/backdrop.jpg);
+    background-size: cover;
+    background-position: center;            
+    background-repeat: no-repeat;
+    color: rgb(226, 226, 226);
+}
+
+main {
+    padding-top: clamp(40px, 30%, 200px);
+}
+
+.component-top-bar {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: clamp(20px, 20%, 80px);
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 0 1.5rem;
+    background: linear-gradient(180deg, rgba(0,0,0,1), rgba(0, 0, 0, 0.25))
+}
+
+.component-side-menu {
+    position: absolute;
+    right: 0;
+    height: 100vh;
+    background-color: rgb(19, 19, 19);
+    display:none;
+}
+
+.menu-items-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.menu-item-link {
+    padding: 2rem;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(226, 226, 226);
+}
+
+.menu-icon {
+    color: rgb(226, 226, 226); 
+}
+
+.logo-container {
+    height: clamp(50px, 100%, 200px);
+    width: clamp(50px, 100%, 200px);
+}
+
+.logo-img {
+    width: 100%;
+}
+
+body, main {
+    height: 100vh;
+}
+
+.checkout-main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    height: 100%;
+}
+
+#customer-info {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+#form-item-city, #form-item-zip {
+    display:inline-block;
+}
+
+.checkout-deliver-form-container {
+    height: 100%;
+}
+
+#address, #zip, #city {
+    display: block;
+    width: 90%;
+}
+
+.checkout-cart {
+    height: 100%;
+}
+
+.checkout-cart-content {
+    padding: 1rem;
+    height: 55%;
+    background-color: rgba(117, 117, 117, 0.76);
+    border-radius: 5px;
+}
+
+.checkout-cart-submit {
+    text-align: center;
+}
+
+.checkout-cart-submit-button {
+    padding: 0.25rem 1.5rem;
+    background-color:rgb(0, 173, 185);
+    border-radius: 5px;
+}
