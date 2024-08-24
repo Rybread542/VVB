@@ -1,0 +1,120 @@
+.checkout-form {
+    padding-top: 5rem;
+    width: clamp(20rem, 80%, 150rem);
+    margin: auto;
+}
+
+.checkout-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    width: 100%;
+}
+
+input {
+    padding: 0.15rem;
+    width: 80%;
+}
+
+fieldset {
+    width: clamp(18rem, 80%, 40rem);
+    margin: auto;
+}
+
+.form-customer-info, .form-delivery-info {
+    padding: 1rem 2rem;
+}
+
+.form-customer-info {
+    grid-row: 1/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.email, .phone {
+    grid-column: 1/2;
+}
+
+.form-delivery-info {
+    grid-row: 3/5;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.address {
+    grid-column: 1/3;
+}
+
+#address {
+    width: 80%;
+}
+
+#order-legend {
+    margin: auto;
+}
+
+.form-order-summary {
+    grid-column: 2/3;
+    grid-row: 2/4;
+    width: 80%;
+    margin: 0 auto;  
+    border: none; 
+    padding-bottom: 3rem;
+}
+
+.order-summary {
+    padding: 1rem;
+    border: 1px solid var(--accent-darker);
+    width: clamp(15rem, 85%, 35rem);
+    margin: auto;
+}
+
+.order-summary p {
+    display: flex;
+}
+
+.summary-price {
+    margin-left: auto;
+}
+
+.total {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-top: 1rem;
+}
+
+label {
+    display: block;
+}
+
+.submit-button-wrapper {
+    text-align: center;
+}
+
+.submit-button {
+    border: 2px solid var(--accent2);
+    border-radius: 5px;
+    font-family: 'Karla', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+    margin-top: 0.5rem;
+}
+
+@media (max-width: 800px) {
+    .checkout-form form {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .form-customer-info {
+        display: flex;
+        flex-direction: column;
+    }
+}

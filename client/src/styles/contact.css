@@ -1,0 +1,52 @@
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    padding: 5rem;
+}
+
+.contact-header {
+    text-align: center;
+}
+
+.contact-form-wrapper {
+    max-width: 40rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contact-form label {
+    align-self: flex-start;
+}
+
+#name, #email {
+    max-width: 15rem;
+    align-self: flex-start;
+}
+
+#name, #email, #message, #submit {
+    border: solid 1px var(--accent-darker);
+    border-radius: 3px;
+}
+
+#message {
+    padding: 0.15rem;
+    resize: none;
+}
+
+#submit {
+    width: 45%;
+    background-color: var(--button2);
+    padding: 0.15rem;
+    margin-top: 0.25rem;
+    color: var(--page-background)
+}
+

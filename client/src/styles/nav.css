@@ -1,0 +1,141 @@
+.component-top-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: fixed;
+    z-index: 98;
+    top:0;
+    left:0;
+    height: 7.5rem;
+    width:100%;
+    background-color:var(--nav-bar);
+}
+
+.component-top-bar div {
+    height: 7.5rem;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    width: clamp(1px, 100%, 135px);
+    margin: auto;
+}
+
+.logo-img {
+    max-width: 100%;
+    max-height:100%;
+}
+
+.top-bar-links, .links-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: auto;
+}
+
+.top-bar-links a {
+    text-decoration: none;
+}
+
+.cart-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    text-align: center;
+}
+
+.cart-icon {
+    font-size: 1.5rem;
+    position: relative;
+}
+
+.cart-quantity-badge {
+    color: white;
+    background-color: rgb(168, 39, 0);
+    border-radius: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    width:1.25rem;
+    height: 1.25rem;
+    top: -0.75rem;
+    right: -0.5rem;
+}
+
+.top-bar-cart-container {
+    width: clamp(10rem, 20vw, 25rem);
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+    padding: 0.75rem;
+    top: 6rem;
+    right: 1.95rem;
+    background-color: var(--accent);
+    border-radius: 5px;
+}
+
+.top-bar-cart-items {
+    padding: 0.25rem;
+    overflow-y: scroll;
+    height: 90%;
+    width: 95%;
+    text-align: left;
+}
+
+.top-bar-cart-item {
+    padding: 0.2rem;
+}
+
+.top-bar-cart-button-container {
+    text-align: center;
+    width: 100%;
+}
+
+.top-bar-cart-button {
+    border:none;
+    background: var(--button);
+    width: 50%;
+    padding: 0.25rem 0;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.top-bar-cart-item-quantity {
+    margin-left: 2rem;
+}
+
+@media (max-width: 1090px) {
+    .top-bar-links {
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 740px) {
+    .component-top-bar {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .grid-empty {
+        display: none;
+    }
+}
+
+@media (max-width: 485px) {
+    .links-container {
+        display: flex;
+        flex-direction: column;
+        gap:0.5rem;
+        padding: 0;
+    }
+
+    .top-bar-links {
+        gap:0;
+    }
+}

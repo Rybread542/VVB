@@ -1,0 +1,120 @@
+.menu-title {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--accent);
+    width: clamp(15rem, 70%, 55rem);
+    margin: auto;
+    padding: 2rem 4rem;
+    background-color: var(--accent);
+    box-shadow: 1px 1px 3px var(--font);
+}
+
+.menu-category {
+    position: relative;
+    width: 100%;
+    background-color: var(--accent-lighter);
+    margin: 1rem 0;
+    border-radius: 3px;
+    border: 3px solid var(--accent-darker);
+}
+
+.category-title {
+    text-align: center;
+    padding: 3rem 0;
+    position: relative;
+    width: clamp(5rem, 40%, 40rem);
+    margin: auto;
+    border-bottom: 2px solid var(--accent-darker);
+}
+
+.category-title h2 {
+    background-color: var(--accent-darker);
+    width: clamp(5rem, 80%, 40rem);
+    color: var(--page-background);
+    border: 2px solid var(--font);
+    border-radius: 5px;
+    margin: auto;
+}
+
+.category-aux-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    gap: 0.5em;
+    right: 1rem;
+    top: 1rem;
+    border: 1px solid ;
+    padding: 0.5rem;
+    text-align: center;
+    height: 7rem;
+    width: 10rem;
+}
+
+.category-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem 2rem;
+    gap: 1rem;
+}
+
+#special-cookie {
+    grid-column: 1 / span 2;
+    text-align: center;
+    border: 1px solid var(--accent-darker);
+}
+
+@media (max-width: 1200px) {
+    .category-title {
+        margin:0 0 0 1.5rem;
+    }
+}
+
+@media (max-width: 1020px) {
+    .category-items {
+        grid-template-columns: 1fr;
+    }
+
+    #special-cookie {
+        grid-column: 1;
+    }
+}
+
+@media(max-width: 900px) {
+    .category-aux-info {
+        right: auto;
+        left: auto;
+        margin: auto;
+        top: 9rem;
+        width: 100%;
+
+    }
+
+    .category-title {
+        width: 100%;
+        margin: auto;
+        border: none;
+    }
+
+    .category-items {
+        margin-top: 6rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .menu {
+        width: clamp(15rem, 95%, 55rem);
+        padding: 0.5rem;
+    }
+}

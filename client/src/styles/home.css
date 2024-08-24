@@ -1,0 +1,145 @@
+
+.home-hero {
+    height: calc(100vh - 7rem);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(
+     180deg, 
+     #b6b8ad86, 
+     #edefe186), 
+    url(images/hero-img.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.home-hero-title {
+    text-align: center;
+}
+
+.home-hero-buttons {
+    display: flex;
+    width: clamp(250px, 50%, 600px);
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    justify-content: space-around;
+    position: absolute;
+    right: 0;
+    bottom: 5rem;
+}
+
+.home-button {
+    padding: 1rem 2rem;
+    background-color: var(--button);
+    width: clamp(10rem, 20vw, 17rem);
+    font-size: 1.5rem;
+    border-radius: 3px;
+    border: none;
+    font-size: 1.3rem;
+}
+
+.home-about {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    width: clamp(10rem, 80%, 65rem);
+    margin: auto;
+    padding: 4rem 1rem;
+}
+
+.home-about-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 20rem;
+}
+
+.about-card-motif{
+    width: 175px;
+}
+
+.about-card-motif > img {
+    width: 100%;
+}
+
+.about-card-info {
+    text-align: center;
+    flex: 1;
+}
+
+.home-delivery-info {
+    text-align: center;
+    padding: 5rem;
+    background-color: var(--accent);
+}
+
+.delivery-info-text {
+    width: clamp(10rem, 60%, 60rem);
+    margin:auto;
+}
+
+.home-gallery {
+    display: grid;
+    margin: auto;
+    gap: 0.5rem;
+    padding: 1rem 0;
+    grid-template-columns: 1fr 1fr;
+    width: clamp(10rem, 85%, 80rem);
+}
+
+.product-photo img {
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 740px) {
+    .home-about {
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        align-items: center;
+        
+    }
+
+    .home-about-card {
+       margin: auto;
+    }
+
+    .home-hero-buttons {
+        align-items: center;
+        gap: 2rem;
+        position: static;
+        margin: auto;
+    }
+}
+
+@media (max-width: 560px) {
+
+    .home-delivery-info {
+        padding: 5rem 0.75rem;
+    }
+
+    .home-gallery {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .product-photo {
+        flex: 1;
+    }
+}
+
+@media (max-height: 700px) {
+    /* .home-hero {
+        align-items: flex-start;
+    }
+
+    .home-hero-title {
+        margin-top: clamp(2rem, 25%, 8rem);
+    } */
+    
+}

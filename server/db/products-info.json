@@ -1,0 +1,198 @@
+[
+    {
+        "product_id" : "price_1PkAnnRxCXx34TCHcjNng1o0",
+        "product_name": "Chocolate Chip Cookie",
+        "product_type": "Cookie",
+        "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam!",
+        "product_price": 2.99,
+        "product_isBundle": false,
+        "product_img": "/public/images/cookie_product_img.jpg" 
+    },
+
+    {
+        "product_id" : "price_1PkAswRxCXx34TCHuSb5yN3I",
+        "product_name": "Oatmeal Raisin Cookie",
+        "product_type": "Cookie",
+        "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam!",
+        "product_price": 2.99,
+        "product_isBundle": false,
+        "product_img": "/public/images/cookie_product_img.jpg" 
+    },
+
+    {
+        "product_id" : "price_1PkAtURxCXx34TCHasK4F3is",
+        "product_name": "Snickerdoodle Cookie",
+        "product_type": "Cookie",
+        "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam!",
+        "product_price": 2.99,
+        "product_isBundle": false,
+        "product_img": "/public/images/cookie_product_img.jpg" 
+    },
+
+    {
+        "product_id" : "price_1PkAtvRxCXx34TCHCOdQdaEe",
+        "product_name": "Chocolate Crinkle Cookie",
+        "product_type": "Cookie",
+        "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam!",
+        "product_price": 2.99,
+        "product_isBundle": false,
+        "product_img": "/public/images/cookie_product_img.jpg" 
+    },
+
+    {
+        "product_id" : "price_1PkAuIRxCXx34TCHuNxu3Z00",
+        "product_name": "Lemon Crinkle Cookie",
+        "product_type": "Cookie",
+        "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam!",
+        "product_price": 2.99,
+        "product_isBundle": false,
+        "product_img": "/public/images/cookie_product_img.jpg" 
+    },
+
+    {
+        "product_id" : "price_1PkAvjRxCXx34TCHQcX1XTkl",
+        "product_name": "Ginger Molasses Cookie",
+        "product_type": "Cookie",
+        "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam!",
+        "product_price": 2.99,
+        "product_isBundle": false,
+        "product_img": "/public/images/cookie_product_img.jpg" 
+    },
+
+    {
+        "product_id" : "price_1PkAw9RxCXx34TCHdXgNHhYK",
+        "product_name": "Kitchen Sink Cookie",
+        "product_type": "Cookie",
+        "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam!",
+        "product_price": 4.99,
+        "product_isBundle": false,
+        "product_img": "/public/images/cookie_product_img.jpg" 
+    },
+
+    {
+        "product_id" : "price_1PkAxHRxCXx34TCHfc7cTrF9",
+        "product_name": "Rice Krispy Treat",
+        "product_type": "Bar",
+        "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam!",
+        "product_price": 2.99,
+        "product_isBundle": false,
+        "product_img": "/public/images/cookie_product_img.jpg" 
+    },
+
+    {
+        "product_id" : "price_1PkAybRxCXx34TCHhIxcPX4Q",
+        "product_name": "Blondie Bar",
+        "product_type": "Bar",
+        "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam!",
+        "product_price": 2.99,
+        "product_isBundle": false,
+        "product_img": "/public/images/cookie_product_img.jpg" 
+    },
+
+    {
+        "product_id" : "price_1PkAzqRxCXx34TCHNdpx0leM",
+        "product_name": "Brownie",
+        "product_type": "Bar",
+        "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam!",
+        "product_price": 2.99,
+        "product_isBundle": false,
+        "product_img": "/public/images/cookie_product_img.jpg" 
+    },
+
+    {
+        "product_id" : "price_1PkB0RRxCXx34TCHXrddvOtt",
+        "product_name": "Banana Bread",
+        "product_type": "Loaf",
+        "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam!",
+        "product_price": 10.99,
+        "product_isBundle": false,
+        "product_img": "/public/images/cookie_product_img.jpg" 
+    },
+
+    {
+        "product_id" : "price_1PkB0tRxCXx34TCHQ364cesL",
+        "product_name": "Cinnamon Bread",
+        "product_type": "Loaf",
+        "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam!",
+        "product_price": 10.99,
+        "product_isBundle": false,
+        "product_img": "/public/images/cookie_product_img.jpg" 
+    },
+
+    {
+        "product_id" : "price_1PkB1FRxCXx34TCHmXmwNcDr",
+        "product_name": "Zucchini Bread",
+        "product_type": "Loaf",
+        "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam!",
+        "product_price": 10.99,
+        "product_isBundle": false,
+        "product_img": "/public/images/cookie_product_img.jpg" 
+    },
+
+    {
+        "product_id" : "price_1PkB66RxCXx34TCHMMQnDLLl",
+        "product_name": "Raspberry Bread",
+        "product_type": "Loaf",
+        "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam!",
+        "product_price": 10.99,
+        "product_isBundle": false,
+        "product_img": "/public/images/cookie_product_img.jpg" 
+    },
+
+    {
+        "product_id" : "price_1PkB1URxCXx34TCHlfZzIaO7",
+        "product_name": "Lemon Bread",
+        "product_type": "Loaf",
+        "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam!",
+        "product_price": 10.99,
+        "product_isBundle": false,
+        "product_img": "/public/images/cookie_product_img.jpg" 
+    },
+
+    {
+        "product_id" : "price_1PkB6QRxCXx34TCHwbUOQuwn",
+        "product_name": "Half-Dozen Cookies",
+        "product_type": "Cookie",
+        "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam!",
+        "product_price": 14.99,
+        "product_isBundle": true,
+        "product_bundle_id": 0,
+        "product_flavors" : [],
+        "product_img": "/public/images/cookie_product_img.jpg" 
+    },
+
+    {
+        "product_id" : "price_1PkB6qRxCXx34TCHPxMqCrap",
+        "product_name": "Dozen Cookies",
+        "product_type": "Cookie",
+        "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam!",
+        "product_price": 19.99,
+        "product_isBundle": true,
+        "product_bundle_id": 0,
+        "product_flavors": [],
+        "product_img": "/public/images/cookie_product_img.jpg" 
+    },
+
+    {
+        "product_id" : "price_1PkB7FRxCXx34TCH8u0AecYl",
+        "product_name": "Half-Batch Bars",
+        "product_type": "Bar",
+        "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam!",
+        "product_price": 14.99,
+        "product_isBundle": true,
+        "product_flavors": [],
+        "product_img": "/public/images/cookie_product_img.jpg" 
+    },
+
+    {
+        "product_id" : "price_1PkB7URxCXx34TCHuIfI9NPY",
+        "product_name": "Full Batch Bars",
+        "product_type": "Bar",
+        "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam!",
+        "product_price": 19.99,
+        "product_isBundle": true,
+        "product_flavors": [],
+        "product_img": "/public/images/cookie_product_img.jpg" 
+    }
+
+]
