@@ -1,14 +1,15 @@
 const express = require('express')
 const cors = require('cors')
 const session = require('express-session')
+require('dotenv').config()
 const SQLiteStore = require('connect-sqlite3')(session)
-const stripe = require('stripe')('sk_test_51Pk7HwRxCXx34TCH6ZEgC3FiPRremzJPG39m7IMqnsh62fx2YNfEWNO3jtRPFTtFashvWXJVFygim6rqr2IOlltx00GlMMyyOP')
+const stripe = require('stripe')(process.env.STRIPE_KEY)
 const sqlite = require('./db/fetch-product.js')
 const { cartTotals, parseCart } = require('./util/cart_parse.js')
 const { generateCartID, generateBundleID } = require('./util/id_gen.js')
 const validate = require('./util/validation.js')
 const mailer = require('./util/mailer.js')
-require('dotenv').config()
+
 
 const app = express()
 
