@@ -1,4 +1,3 @@
-import { useEffect, useState, useRef } from "react"
 import '../../styles/nav.css'
 import useOutsideClick from "../../hooks/useOutsideClick"
 import { Nav_Cart_Display } from "./nav_cart_display"
